@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+--white: hsl(0, 0%, 100%);
+--color-text-grey :hsl(224, 23%, 55%);
+--color-blue: hsl(245, 75%, 52%);
+--color-white-strong:hsl(225, 100%, 98%);
+--color-white-litgh: hsl(225, 100%, 94%);
+--font: 'Red Hat Display';
+}
+
+body{
+    background-image: url(img/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-color: var(--color-white-litgh);
+    font-family: var(--font);
+}
+
+.card{
+    width: 380px;
+    height: 560px;
+    margin: auto;
+    margin-top: 40px;
+    align-content: center;
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.img-card{
+    width: 100%;
+    border-radius: 20px 20px 0 0;
+}
+
+.body-card{
+    width: 80%;
+    padding: 0 10%;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.title-card{
+    font-size: 1.6em;
+    font-weight: 800;
+}
+
+.description{
+    font-size: 0.95em;
+    font-weight: 300;
+    color: var(--color-text-grey);
+}
+
+.container-plan{
+    height: 100%;
+    margin: 10px 0;
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+    background-color: var(--color-white-strong);
+    padding: 10px 15px;
+    border-radius: 10px;    
+}
+
+.img-plan{
+    height: 44px;
+    width: 44px;
+}
+
+.descrip-plan{
+    display: flex;
+    flex-flow: column;
+    margin: 0 10px 0 10px;
+    left: 1px;
+}
+
+.type-plan{
+    font-size: 1.15em;
+    margin: auto;
+}
+
+.precio-play{
+    font-size: 1em;
+    font-weight: 400;
+    margin: auto;
+    color: var(--color-text-grey);
+}
+
+.change-plan{
+    font-size: 0.95em;
+    font-weight: 600;
+    margin-left: auto;
+}
+
+.accept-plan{
+    padding: 15px 60px;
+    border-radius: 10px;
+    font-size: 1.1em;
+    font-weight: 600;
+    background-color: var(--color-blue);
+    color: var(--color-white-strong);
+    border: none;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px 0;
+    margin-top: 30px;
+}
+
+.cancel-plan{
+    font-size: 1em;
+    font-weight: 600;
+    color: var(--color-text-grey);
+    text-decoration: none;
+}
